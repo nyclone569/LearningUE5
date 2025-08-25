@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Learning.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Learning.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LearningEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Learning">
+      <UniqueIdentifier>{EE3798D4-09C8-343A-8AEF-31CB5407D07C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Learning\Learning.Build.cs">
+      <Filter>Source\Learning</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Learning\Learning.cpp">
+      <Filter>Source\Learning</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Learning\Learning.h">
+      <Filter>Source\Learning</Filter>
+    </ClInclude>
+    <Filter Include="Source\Learning\Private">
+      <UniqueIdentifier>{1B8F9E34-6006-3506-A85A-88D91E95C0CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Learning\Private\Character">
+      <UniqueIdentifier>{036C8FC3-5A39-32CA-A7FC-436DF12A5808}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Learning\Private\Character\BaseCharacter.cpp">
+      <Filter>Source\Learning\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\Learning\Private\DataAsset">
+      <UniqueIdentifier>{97AE4665-42D6-31A8-921F-D9F87D759B84}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Learning\Private\DataAsset\EnhancedInputData.cpp">
+      <Filter>Source\Learning\Private\DataAsset</Filter>
+    </ClCompile>
+    <Filter Include="Source\Learning\Public">
+      <UniqueIdentifier>{3FC17D6E-DEF1-3BE7-A195-38921B86315C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Learning\Public\Character">
+      <UniqueIdentifier>{402E474A-36B4-3172-9FAB-8FDDBAE6303D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Learning\Public\Character\BaseCharacter.h">
+      <Filter>Source\Learning\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Learning\Public\DataAsset">
+      <UniqueIdentifier>{FC96AD24-89FF-340A-AC83-1069126788D9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Learning\Public\DataAsset\EnhancedInputData.h">
+      <Filter>Source\Learning\Public\DataAsset</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
