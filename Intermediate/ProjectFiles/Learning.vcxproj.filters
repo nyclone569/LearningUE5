@@ -69,5 +69,6 @@
     <ClInclude Include="..\..\Source\Learning\Public\DataAsset\EnhancedInputData.h">
       <Filter>Source\Learning\Public\DataAsset</Filter>
     </ClInclude>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
