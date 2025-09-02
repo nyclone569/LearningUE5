@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Projects/Unreal/LearningUE5/Content/AnimBP/ABP_Greystone.uasset",
+				"D:/Projects/Unreal/LearningUE5/Content/Assets/Characters/Mannequins/Rigs/PA_GreyStone.uasset",
+				"D:/Projects/Unreal/LearningUE5/Content/Assets/ParagonGreystone/Characters/Heroes/Greystone/Meshes/Greystone.uasset",
 				"D:/Projects/Unreal/Learning/Content/__ExternalActors__/Assets/ThirdPerson/Lvl_ThirdPerson/9/IY/E0J40PPBEYQDDEWC36FLRE.uasset",
 				"D:/Projects/Unreal/Learning/Content/__ExternalObjects__/Assets/ThirdPerson/Lvl_ThirdPerson/9/W3/DE88M4P0JE69XVV2VJ57IP.uasset",
 				"D:/Projects/Unreal/Learning/Content/__ExternalObjects__/Assets/ThirdPerson/Lvl_ThirdPerson/A/9X/79T6W1W3MUGOIL11GDU0KO.uasset",

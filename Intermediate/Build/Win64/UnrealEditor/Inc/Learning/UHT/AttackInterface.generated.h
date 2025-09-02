@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Interface UAttackInterface *****************************************************
 LEARNING_API UClass* Z_Construct_UClass_UAttackInterface_NoRegister();
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	LEARNING_API UAttackInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -31,7 +31,7 @@ LEARNING_API UClass* Z_Construct_UClass_UAttackInterface_NoRegister();
 	virtual ~UAttackInterface() = default;
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_13_GENERATED_UINTERFACE_BODY() \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_13_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUAttackInterface(); \
 	friend struct Z_Construct_UClass_UAttackInterface_Statics; \
@@ -42,15 +42,15 @@ public: \
 	DECLARE_SERIALIZER(UAttackInterface)
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_13_GENERATED_BODY \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_13_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_13_GENERATED_UINTERFACE_BODY() \
-	FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_13_GENERATED_UINTERFACE_BODY() \
+	FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IAttackInterface() {} \
 public: \
@@ -59,11 +59,11 @@ public: \
 	virtual UObject* _getUObject() const { return nullptr; }
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_10_PROLOG
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_21_GENERATED_BODY \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_10_PROLOG
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -73,6 +73,6 @@ class UAttackInterface;
 // ********** End Interface UAttackInterface *******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Projects_Unreal_Learning_Source_Learning_Public_Interface_AttackInterface_h
+#define CURRENT_FILE_ID FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Interface_AttackInterface_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

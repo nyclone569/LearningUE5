@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UBaseAnimInstance ********************************************************
 LEARNING_API UClass* Z_Construct_UClass_UBaseAnimInstance_NoRegister();
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBaseAnimInstance(); \
 	friend struct Z_Construct_UClass_UBaseAnimInstance_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UBaseAnimInstance)
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBaseAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UBaseAnimInstance();
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_11_PROLOG
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_GENERATED_BODY \
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_11_PROLOG
+#define FID_Projects_Unreal_LearningUE5_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Projects_Unreal_Learning_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Projects_Unreal_Learning_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Unreal_LearningUE5_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Unreal_LearningUE5_Source_Learning_Public_AnimInstance_BaseAnimInstance_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UBaseAnimInstance;
 // ********** End Class UBaseAnimInstance **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Projects_Unreal_Learning_Source_Learning_Public_AnimInstance_BaseAnimInstance_h
+#define CURRENT_FILE_ID FID_Projects_Unreal_LearningUE5_Source_Learning_Public_AnimInstance_BaseAnimInstance_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

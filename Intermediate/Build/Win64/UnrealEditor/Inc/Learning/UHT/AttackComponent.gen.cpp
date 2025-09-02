@@ -124,14 +124,14 @@ UAttackComponent::~UAttackComponent() {}
 // ********** End Class UAttackComponent ***********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_Statics
+struct Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UAttackComponent, UAttackComponent::StaticClass, TEXT("UAttackComponent"), &Z_Registration_Info_UClass_UAttackComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAttackComponent), 846430124U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_3332150878(TEXT("/Script/Learning"),
-	Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_3332150878(TEXT("/Script/Learning"),
+	Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Component_AttackComponent_h__Script_Learning_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

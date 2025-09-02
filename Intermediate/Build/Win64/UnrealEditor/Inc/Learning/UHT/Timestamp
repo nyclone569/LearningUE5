@@ -1,7 +1,7 @@
-D:\Projects\Unreal\Learning\Source\Learning\Public\AnimInstance\BaseAnimInstance.h
-D:\Projects\Unreal\Learning\Source\Learning\Public\Component\AttackComponent.h
-D:\Projects\Unreal\Learning\Source\Learning\Public\DataAsset\EnhancedInputData.h
-D:\Projects\Unreal\Learning\Source\Learning\Public\DataAsset\BaseCharacterData.h
-D:\Projects\Unreal\Learning\Source\Learning\Public\Interface\AttackInterface.h
-D:\Projects\Unreal\Learning\Source\Learning\Public\AnimNotify\EndAttack_AN.h
-D:\Projects\Unreal\Learning\Source\Learning\Public\Character\BaseCharacter.h
+D:\Projects\Unreal\LearningUE5\Source\Learning\Public\Component\AttackComponent.h
+D:\Projects\Unreal\LearningUE5\Source\Learning\Public\AnimInstance\BaseAnimInstance.h
+D:\Projects\Unreal\LearningUE5\Source\Learning\Public\DataAsset\BaseCharacterData.h
+D:\Projects\Unreal\LearningUE5\Source\Learning\Public\Character\BaseCharacter.h
+D:\Projects\Unreal\LearningUE5\Source\Learning\Public\Interface\AttackInterface.h
+D:\Projects\Unreal\LearningUE5\Source\Learning\Public\DataAsset\EnhancedInputData.h
+D:\Projects\Unreal\LearningUE5\Source\Learning\Public\AnimNotify\EndAttack_AN.h

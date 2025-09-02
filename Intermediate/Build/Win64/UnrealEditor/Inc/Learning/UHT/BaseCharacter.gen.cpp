@@ -151,14 +151,14 @@ ABaseCharacter::~ABaseCharacter() {}
 // ********** End Class ABaseCharacter *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_Statics
+struct Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ABaseCharacter, ABaseCharacter::StaticClass, TEXT("ABaseCharacter"), &Z_Registration_Info_UClass_ABaseCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseCharacter), 793518753U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_3029042206(TEXT("/Script/Learning"),
-	Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_3029042206(TEXT("/Script/Learning"),
+	Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_Unreal_LearningUE5_Source_Learning_Public_Character_BaseCharacter_h__Script_Learning_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
