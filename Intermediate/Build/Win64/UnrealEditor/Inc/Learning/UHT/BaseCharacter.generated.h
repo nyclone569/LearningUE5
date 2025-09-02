@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ABaseCharacter ***********************************************************
 LEARNING_API UClass* Z_Construct_UClass_ABaseCharacter_NoRegister();
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \
 	friend struct Z_Construct_UClass_ABaseCharacter_Statics; \
@@ -27,10 +27,11 @@ private: \
 	friend LEARNING_API UClass* Z_Construct_UClass_ABaseCharacter_NoRegister(); \
 public: \
 	DECLARE_CLASS2(ABaseCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Learning"), Z_Construct_UClass_ABaseCharacter_NoRegister) \
-	DECLARE_SERIALIZER(ABaseCharacter)
+	DECLARE_SERIALIZER(ABaseCharacter) \
+	virtual UObject* _getUObject() const override { return const_cast<ABaseCharacter*>(this); }
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_20_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ABaseCharacter(ABaseCharacter&&) = delete; \
 	ABaseCharacter(const ABaseCharacter&) = delete; \
@@ -40,12 +41,12 @@ public: \
 	NO_API virtual ~ABaseCharacter();
 
 
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_16_PROLOG
-#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_19_GENERATED_BODY \
+#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_17_PROLOG
+#define FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_19_INCLASS_NO_PURE_DECLS \
-	FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_19_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Unreal_Learning_Source_Learning_Public_Character_BaseCharacter_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

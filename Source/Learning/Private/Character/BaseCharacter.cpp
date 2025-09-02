@@ -8,6 +8,7 @@
 #include <EnhancedInputSubsystems.h>
 #include <EnhancedInputComponent.h>
 #include "DataAsset/EnhancedInputData.h"
+#include "Component/AttackComponent.h"
 
 // Sets default values
 ABaseCharacter::ABaseCharacter()
@@ -25,7 +26,11 @@ ABaseCharacter::ABaseCharacter()
 	// UCameraComponent
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	CameraComponent->SetupAttachment(SpringArmComponent);
-	CameraComponent->bUsePawnControlRotation = false;
+	CameraComponent->bUsePawnControlRotation = false; 
+
+	// UAttackComponent
+	// Actor component no need to attach to root component
+	AttackComponent = CreateDefaultSubobject<UAttackComponent>(TEXT("Attack Component"));
 
 	//
 	bUseControllerRotationYaw = false;
@@ -49,7 +54,28 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	if (EnhancedInputData == nullptr) return;
 	EnhancedInputComponent->BindAction(EnhancedInputData->IA_Look, ETriggerEvent::Triggered, this, &ABaseCharacter::Look);
 	EnhancedInputComponent->BindAction(EnhancedInputData->IA_Move, ETriggerEvent::Triggered, this, &ABaseCharacter::Move);
+	EnhancedInputComponent->BindAction(EnhancedInputData->IA_Attack, ETriggerEvent::Started, this, &ABaseCharacter::AttackPressed);
 
+}
+
+// Called after the C++ constructor and after the properties have been initialized, including those loaded from config.
+void ABaseCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	// Set up attack component
+	if (AttackComponent)
+		AttackComponent->SetupAttackComponent(BaseCharacterData);
+}
+
+void ABaseCharacter::I_PlayAttackMontage(UAnimMontage* AttackMontage)
+{
+	PlayAnimMontage(AttackMontage);
+}
+
+void ABaseCharacter::I_AN_EndAttack()
+{
+	if(AttackComponent)
+		AttackComponent->AN_EndAttack();
 }
 
 // Called when the game starts or when spawned
@@ -98,4 +124,10 @@ void ABaseCharacter::Move(const FInputActionValue& value)
 
 	if (ActionValue.X != 0.0)
 	AddMovementInput(RightDirecton, ActionValue.X);
+}
+
+void ABaseCharacter::AttackPressed()
+{
+	if(AttackComponent)
+		AttackComponent->RequestAttack();
 }
